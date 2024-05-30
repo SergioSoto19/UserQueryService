@@ -5,7 +5,7 @@ FROM openjdk:19-alpine
 WORKDIR /app
 
 # Descarga el archivo JAR desde el repositorio de GitHub
-ADD https://github.com/SergioSoto19/UserQueryService/UserQueryService.jar app.jar
+ADD https://github.com/SergioSoto19/UserQueryService/raw/main/UserQueryService.jar app.jar
 
 # Expone el puerto en el que se ejecutará tu aplicación (cambia 8082 si es necesario)
 EXPOSE 8082
